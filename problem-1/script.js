@@ -14,9 +14,9 @@ function od(obj, key){
     delete obj[key];
     return obj;
 }
-// console.log(od(person, 'lastName'));
-// returns => 
 /*
+console.log(od(person, 'lastName'));
+returns => 
 [object Object] {
   age: 28,
   eyes: "blue",
