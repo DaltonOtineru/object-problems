@@ -12,20 +12,17 @@ let books = [
     ];
     
 function compare(a, b){
-    const titleA = a.title.toLowerCase();
-    const titleB = b.title.toLowerCase();
-    
     let order = 0;
-    if(titleA > titleB){
+    if(a.title > b.title){
         order = 1;
-    } else if(titleA < titleB){
+    } else if(a.title < b.title){
         order = -1;
     }
     return order;
 }
-
+    
 console.log(books.sort(compare));
-
+      
 //returns 
 /*
     [[object Object] {
