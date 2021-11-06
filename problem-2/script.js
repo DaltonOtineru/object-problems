@@ -20,6 +20,3 @@ let names = people.forEach((p) => {
 });
 
 
-const printFullName = people.forEach(function(a) {
-    console.log(a.firstName + ' ' + a.lastName)
-});
