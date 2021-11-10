@@ -4,18 +4,18 @@
 // in as a parameter;
 // return the updated object
 
-let person = {
+const person = {
     firstName: 'Dalton',
     lastName: 'Otineru',
     age: 28,
     eyes: 'blue';
 }
-function od(obj, key){
+function objDelete(obj, key){
     delete obj[key];
     return obj;
 }
 /*
-console.log(od(person, 'lastName'));
+console.log(objDelete(person, 'lastName'));
 returns => 
 [object Object] {
   age: 28,
